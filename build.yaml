@@ -287,3 +287,16 @@ include:
     shield: settings_reset
     artifact-name: puchi_settings_reset
   ### SETTINGS_RESET END ###
+
+
+### SPLITKB AURORA LILY58 START ###
+- board: nice_nano_v2
+  shield: splitkb_aurora_lily58_left nice_oled
+  cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Aurora_Lily58\" -DCONFIG_ZMK_STUDIO=y
+  artifact-name: aurora_lily58_left
+  snippet: studio-rpc-usb-uart
+
+- board: nice_nano_v2
+  shield: splitkb_aurora_lily58_right nice_oled
+  artifact-name: aurora_lily58_right
+### SPLITKB AURORA LILY58 END ###
