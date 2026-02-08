@@ -10,13 +10,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-    /* * Define custom behavior for the Backspace/Delete key.
-     * Acts as Backspace by default, but Delete when Shift is held.
-     */
+    /* Custom Behavior: Backspace normally, Delete if Shift is held */
     behaviors {
         bs_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE";
             #binding-cells = ;
             bindings = <&kp BSPC>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
