@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: splitkb_aurora_sofle}
+layout: {zmk_keyboard: splitkb_aurora_lily58}
 layers:
   Base:
   - Esc
@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: '$$mdi:backspace-outline$$', s: DELETE}
+  - {t: '$$mdi:backspace-outline$$', s: ⌦}
   - ↹
   - Q
   - W
