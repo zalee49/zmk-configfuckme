@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: ␣, h: lower}
   - ⏎
-  - ⏎
+  - ␣
   - {t: ␣, h: raise}
   - $$mdi:backspace-outline$$
   - $$mdi:apple-keyboard-command$$
