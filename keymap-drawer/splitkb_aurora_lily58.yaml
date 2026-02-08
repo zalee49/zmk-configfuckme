@@ -1,8 +1,64 @@
 layout: {zmk_keyboard: splitkb_aurora_lily58}
 layers:
-  default: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H,
-    J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, '[', ']', N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', '$$mdi:apple-keyboard-option$$', '$$mdi:apple-keyboard-command$$',
-    lower, ␣, ⏎, raise, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$']
+  default:
+  - Esc
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - ⌦
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - '['
+  - ']'
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: ␣, h: lower}
+  - ⏎
+  - ⏎
+  - {t: ␣, h: raise}
+  - $$mdi:backspace-outline$$
+  - $$mdi:apple-keyboard-command$$
   lower:
   - BT CLR
   - BT 1
@@ -36,21 +92,21 @@ layers:
   - '%'
   - ^
   - AMPS
-  - '*'
+  - KP MULTIPLY
   - (
   - )
   - '~'
   - {t: ▽, type: trans}
-  - EP ON
-  - EP OFF
-  - EP TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
-  - +
+  - KP PLUS
   - '{'
   - '}'
   - '|'
